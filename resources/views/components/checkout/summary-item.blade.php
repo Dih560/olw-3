@@ -9,5 +9,5 @@
     <dd @class([
         "text-secondary-300",
         "text-base" => $isTotal ?? false
-    ])>R$&nbsp;{{ $value }}</dd>
+    ])>@money($value)</dd>
 </div>
