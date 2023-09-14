@@ -44,7 +44,7 @@
 
         <div class="mt-6 grid grid-cols-6 gap-x-4 gap-y-6 sm:grid-cols-8">
             <div class="col-span-6 sm:col-span-2">
-                <x-input-label for="zipcode" value="Numero do cartao"/>
+                <x-input-label for="zipcode" value="CEP"/>
                 <div class="mt-1">
                     <x-text-input
                             type="text"

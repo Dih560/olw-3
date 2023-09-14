@@ -8,7 +8,7 @@ use Livewire\Form;
 
 class AddressForm extends Form
 {
-    #[Rule('required|string|max:9', message: 'Cep inválido')]
+    #[Rule('required|string|min:9|max:9')]
     public $zipcode = '';
 
     #[Rule('required|string|max:255')]
